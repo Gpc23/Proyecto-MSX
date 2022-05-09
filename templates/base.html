@@ -8,13 +8,17 @@
 	<body class="is-preload">
 
 		<!-- Header -->
-			<div id="header">
-				<span class="logo icon fa-paper-plane"></span>
-				<h1>Librería</h1>
-			</div>
+		<header id="header">
+			<a href="/" class="logo"><strong>MSX</strong><span>El camino más lógico hacia la informática</span></a>
+		<!-- Menu -->	
+				<nav>
+					<li><a href="/">Home</a></li>
+					<li><a href="/juegos">Juegos</a></li>
+				</nav>
+		</header>
 
 		<!-- Blog posts -->
-		{% block content %}{% endblock %}
+		{% block content %} {% endblock %}
 
 		<!-- Scripts -->
 			<script src="/static/assets/js/jquery.min.js"></script>
